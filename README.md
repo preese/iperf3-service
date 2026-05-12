@@ -4,13 +4,11 @@ only a few lines needed.
 
 Put them into:
 
-/etc/systemd/system/
+cp iperf3* /etc/systemd/system/
 
 sudo systemctl daemon-reload
 
-sudo systemctl enable --now iperf3
-
-sudo systemctl enable --now iperf3-02
+sudo systemctl enable --now iperf3*
 
 Open firewall ports 5201 and 5202
 
