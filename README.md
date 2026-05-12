@@ -4,7 +4,7 @@ only a few lines needed.
 
 Put them into:
 
-cp iperf3* /etc/systemd/system/
+sudo cp iperf3* /etc/systemd/system/
 
 sudo systemctl daemon-reload
 
